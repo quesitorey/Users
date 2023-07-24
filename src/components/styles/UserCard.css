@@ -1,0 +1,45 @@
+.user-container{
+  width: 19rem;
+  height: 15rem;
+  border: 1px solid #0003;
+  border-radius: 10px;
+  margin-top: .5rem;
+}
+.user-title{
+  color: #b90404;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+  padding: 1.3em;
+}
+.user-ul{
+  margin-left: 1.7em;
+  margin-top: 1em;
+} 
+.user-li{
+  display: flex;
+  flex-direction: column;
+}
+.span{
+  padding: .2em;
+}
+.user-title-info{
+  color: #0003; 
+}
+.user-footer{
+  display: flex;
+  flex-direction: row-reverse;
+  padding-right: 2rem;
+  gap: 1rem;
+}
+.user-btn{
+  padding: 1em;
+  border-radius: 10px;
+}
+.user-btn:first-child{
+  background-color: #b90404;
+  color: white;
+}
+.user-hr{
+  border: .5px solid #0003;
+}
